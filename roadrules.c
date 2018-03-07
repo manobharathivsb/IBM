@@ -6,8 +6,6 @@ int main(void)
 	scanf("%d\n",&n);
 	scanf("%d\t%d\t%d\t%d\n",&licence,&insurance,&rcbook,&helmet);
 	scanf("%d\t%d",&highspeed,&morethan2persons);
-	{
-	{
 	if(licence==0)
 	{
 		a=a+1000;
@@ -26,10 +24,10 @@ int main(void)
 	}
 	if(morethan2persons==0)
 	{a=a+300;
-	}}
-	if((licence==1||insurance==1||rcbook==1||helmet==1||highspeed==1||morethan2person==1)
+	}
+	if(licence==1||insurance==1||rcbook==1||helmet==1||highspeed==1||morethan2persons==1)
          {
 	printf("congrates he/she follow all the rules");
 	 }
 	return 0;
-}}
+}
