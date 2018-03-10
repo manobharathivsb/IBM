@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(void) 
-{int a,b;
-char c;
+{
+int a;
 printf("enter the number");
 scanf("%d",&a);
 switch(a)
@@ -17,7 +17,7 @@ switch(a)
 	break;
 	case '4':
 	printf("internet plan details");
-	break:
+	break;
 	case '5':
 	printf("voice sms & roaming packs");
 	break;
@@ -27,11 +27,12 @@ switch(a)
 	case '7':
 	printf("best offer");
 	break;
-	case '8'
+	case '8':
 	printf("what's new");
 	break;
 	default:
-	printf("no choice")
+	printf("no choice");
+}
 	return 0;
 }
 	
